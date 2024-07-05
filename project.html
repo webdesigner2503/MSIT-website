@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSIT - company website</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- link to boosrtap -->
+    <!-- <link rel="stylesheet" href="assets/css/boostrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link to css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header-area header-new-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-xxl-12 d-flex align-items-center justify-content-between">
+                    <div class="header-left d-flex align-items-center">
+                        <div class="header-logo header-logo-margin">
+                            <a href="/"><img src="assets/icons/logo2.svg" alt="" class="w-100 img-fluid rounded-0"></a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="header-menu d-lg-block d-none me-4">
+                            <nav id="mobile-menu">
+                                <ul class="menu-ul d-flex align-items-center ps-0 m-0">
+                                    <li class="menu-li">
+                                        <a href="/" class="text-white">Home</a>
+                                    </li>
+                                    <li class="menu-li">
+                                        <a href="about.html" class="text-white">About</a>
+                                    </li>
+                                    <li class="menu-li">
+                                        <a href="services.html" class="text-white">Services</a>
+                                    </li>
+                                    <li class="menu-li">
+                                        <a href="project.html" class="text-white active">Project</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-btn-side d-flex align-items-center gap-md-4 gap-2">
+                            <div class="d-lg-block d-none">
+                                <a href="contact.html" class="link-btn d-flex align-items-center gap-md-3 gap-2">Contact Now
+                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="grid-btn d-lg-none d-block">
+                                <a class="btn text-white p-0" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                                    role="button" aria-controls="offcanvasExample">
+                                    <i class="fas fa-th-large"></i>
+                                </a>
+                                <div class="offcanvas offcanvas-start grid-body" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header d-flex align-items-center justify-content-between">
+                                        <a href="/" class="grid-image">
+                                            <img src="assets/icons/logo2.svg" alt="" class="w-100 img-fluid rounded-0">
+                                        </a>
+                                        <button type="button" class="btn-light grid-close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0" viewBox="0 0 329.269 329" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg>
+                                        </button>
+                                    </div>
+                                    <div class="offcanvas-body d-flex flex-column align-items-start justify-content-between ps-0 pe-0">
+                                        <div class="grid-menu">
+                                            <nav id="mobile-menu">
+                                                <ul class="menu-ul d-flex flex-column align-items-start ps-0 m-0">
+                                                    <li class="menu-li">
+                                                        <a href="/" class="text-white p-0">Home</a>
+                                                    </li>
+                                                    <li class="menu-li">
+                                                        <a href="about.html" class="text-white p-0">About</a>
+                                                    </li>
+                                                    <li class="menu-li">
+                                                        <a href="services.html" class="text-white p-0">Services</a>
+                                                    </li>
+                                                    <li class="menu-li">
+                                                        <a href="project.html" class="text-white active p-0">Project</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="dropdown mt-3 p-4">
+                                            <div class="grid-contact-btn">
+                                                <a href="contact.html" class="header-btn d-flex align-items-center justify-content-center">Contact Now
+                                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                                            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <i class="fa fa-th-large" aria-hidden="true"></i> -->
+                                <!-- <span class="header-icon d-flex align-items-center d-md-none d-block">
+                                    <i class="fas fa-th-large"></i>
+                                </span> -->
+                            </div>
+                            <span class="header-action-shape position-absolute">
+                                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11">
+                                    <path
+                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main id="main">
+        <!-- breadcrumb area start -->
+        <section class="breadcrumb-area">
+            <div class="container-fluid">
+                <div class="breadcrumb-wrapper position-relative z-1">
+                    <img src="assets/image/breadcrumb-image.png" alt="" class="breadcrumb-image w-100 h-100 start-0 top-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="breadcrumb-content text-center position-absolute top-0 bottom-0 start-0 end-0 mx-auto d-flex align-items-center justify-content-center flex-column  section-ptb">
+                                    <h2 class="breadcrumb-content-title text-white">Project</h2>
+                                    <!-- <div class="breadcrumb-content-list d-flex align-items-center justify-content-center">
+                                        <a href="index.html" class="text-white d-block">Home</a>
+                                        <span class="d-flex align-items-center">About Us</span>
+                                    </div> -->
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb justify-content-center">
+                                            <li class="breadcrumb-item text-white text-uppercase"><a href="/" class="text-white">Home</a></li>
+                                            <li class="breadcrumb-item active text-uppercase" aria-current="page">Project</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb area end -->
+        <!-- service-types-area start -->
+        <!-- <section class="service-types-area section-ptb">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="service-types-content text-center">
+                            <h2 class="same-heading service-types-title text-white">
+                                What Types of IT Consulting Services Does Ntiva Offer?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center pt-md-5 pt-4">
+                    <div class="col-xxl-5 col-lg-6">
+                        <div class="service-types-content">
+                            <p class="service-types-description same-description">Ntiva offers you a comprehensive suite
+                                of IT consulting services. When you need expert assistance, our IT consultants provide a
+                                local presence, deep resources, and exceptional expertise. <br><br>
+                                From IT strategy to IT budgeting, from business continuity planning to cloud and data
+                                migration services and beyond, Ntiva’s IT consultants help you keep pace with today’s
+                                fast-moving IT landscape.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-types-image mt-lg-0 mt-md-5 mt-4">
+                            <img src="assets/image/service-types-img.jpg" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- service-types-area start -->
+        <!-- project-area start -->
+        <section class="project-area">
+            <div class="container-fluid project-wrapper">
+                <div class="section-ptb">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-5 col-lg-6">
+                                <div class="project-title-area text-center">
+                                    <span class="same-subtitle project-subtitle text-white text-uppercase d-block">Our
+                                        Projects</span>
+                                    <h2 class="same-heading project-title text-white">
+                                        Elevating Tomorrow's IT Landscape
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row project-single-product align-items-start">
+                            <div class="col-md-6 col-12">
+                                <div class="project-single-left">
+                                    <div class="project-item">
+                                        <div class="project-image">
+                                            <a href="#">
+                                                <img src="assets/image/project-1.png" alt="" class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="project-content">
+                                            <div
+                                                class="project-content-title-icon d-flex align-items-center justify-content-between">
+                                                <h2 class="project-content-title ">
+                                                    <a href="#" class="text-white">Managed Service Definition</a>
+                                                </h2>
+                                                <a href="#" class="project-content-icon">
+                                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <!-- <p class="text-white mb-0">The definition of services is a crucial part of
+                                                the onboarding process. We discuss every service outlined in the signed
+                                                Service Agreement to ensure our team has an in-depth understanding of
+                                                your business prior to on-site data gathering, process documentation,
+                                                and ongoing support.</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="project-item">
+                                        <div class="project-image">
+                                            <a href="#">
+                                                <img src="assets/image/project-2.png" alt="" class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                        <div class="project-content">
+                                            <div
+                                                class="project-content-title-icon d-flex align-items-center justify-content-between">
+                                                <h2 class="project-content-title ">
+                                                    <a href="#" class="text-white">IT Data Collection</a>
+                                                </h2>
+                                                <a href="#" class="project-content-icon">
+                                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <!-- <p class="text-white mb-0">Our technicians visit your site to gather
+                                                information about your IT environment and to begin the documentation
+                                                process. Their extensive engineering checklist covers such things as
+                                                network investigation, security assessment, backup verification, server
+                                                room inspections, and policy documentation.</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="project-single-right">
+                                    <!-- <div class="project-client d-flex align-items-center">
+                                        <div class="project-client-img d-flex align-items-center">
+                                            <img src="assets/image/client1.png" alt="">
+                                            <img src="assets/image/client2.png" alt="">
+                                            <img src="assets/image/client3.png" alt="">
+                                        </div>
+                                        <div class="project-client-info">
+                                            <h3 class="text-white mb-0">10K+</h3>
+                                            <p class="text-white mb-0">Trusted Clients</p>
+                                        </div>
+                                    </div> -->
+                                    <div class="project-item">
+                                        <div class="project-image">
+                                            <a href="#">
+                                                <img src="assets/image/project-3.png" alt="" class="w-100">
+                                            </a>
+                                        </div>
+                                        <div class="project-content">
+                                            <div
+                                                class="project-content-title-icon d-flex align-items-center justify-content-between">
+                                                <h2 class="project-content-title ">
+                                                    <a href="#" class="text-white">Internal Information Review</a>
+                                                </h2>
+                                                <a href="#" class="project-content-icon">
+                                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <!-- <p class="text-white mb-0">The primary goal of this phase is to ensure your
+                                                IT environment will meet your needs now and as your business grows. We
+                                                review the information collected in Phase 2 with your dedicated team
+                                                alongside our specialized senior technicians if needed.</p> -->
+                                        </div>
+                                    </div>
+                                    <div class="project-item">
+                                        <div class="project-image">
+                                            <a href="#">
+                                                <img src="assets/image/project-4.png" alt="" class="w-100">
+                                            </a>
+                                        </div>
+                                        <div class="project-content">
+                                            <div
+                                                class="project-content-title-icon d-flex align-items-center justify-content-between">
+                                                <h2 class="project-content-title ">
+                                                    <a href="#" class="text-white">Orientation Meeting and Service
+                                                        Handoff</a>
+                                                </h2>
+                                                <a href="#" class="project-content-icon">
+                                                    <svg width="11" height="13" viewBox="0 0 11 11" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M1.57971 10.1668L9.55073 1.8335M9.55073 1.8335H2.37681M9.55073 1.8335V9.33349"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <!-- <p class="text-white mb-0">Your Ntiva team meets with you to review your new
+                                                client manual. This review includes a discussion of all findings,
+                                                including recommendations for additional changes. It also includes the
+                                                final tailoring of support procedures if needed. We schedule any
+                                                recurring on-site visits and set up the cadence for recurring meetings
+                                                between you and your Account Manager.</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="project-btn text-center">
+                            <a href="#" class="link-btn project-button d-inline-flex align-items-center">More
+                                Projects</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project-area end -->
+        <!-- faq-area start -->
+        <!-- <section class="faq-area section-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="faq-img d-flex justify-content-center">
+                            <img src="assets/image/faq-image.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="faq-wrapper">
+                            <div class="faq-wrap">
+                                <span class="same-subtitle faq-subtitle text-white text-uppercase d-block">
+                                    day-to-day operations
+                                </span>
+                                <h2 class="same-heading faq-title text-white">Empowering Excellence: Our IT Solutions
+                                    Story”</h2>
+                            </div>
+                            <div class="faq-content">
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item bg-transparent">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button text-dark d-flex align-items-center"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne">
+                                                <span>01.</span> IT Strategy & Planning
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <p>Assistance with strategic IT planning is one of our most frequently
+                                                    requested services. We think of strategic IT as a core competitive
+                                                    strength, helping you to invest in the right technologies to prepare
+                                                    your company today for tomorrow’s challenges.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed text-dark d-flex align-items-center bg-white"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseTwo">
+                                                <span>02.</span> IT Budgeting
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p>IT budgeting goes hand in hand with strategic IT planning. But trying
+                                                    to build a technology budget without a clear understanding of what
+                                                    your company needs is frustrating.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed text-dark d-flex align-items-center bg-white"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseThree">
+                                                <span>3.</span> IT Assessments
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p>Chances are your network has developed gradually over time, with
+                                                    layers of hardware and software that may now be contributing to
+                                                    unintended security gaps or inefficiencies.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed text-dark d-flex align-items-center bg-white"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                                aria-controls="panelsStayOpen-collapseFour">
+                                                <span>4.</span> Security Risk Assessments
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p>As your business relies more heavily on technology, the inherent
+                                                    risks increase as well. A single data breach or ransomware attack
+                                                    can cause huge financial, legal, and reputational damages.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- faq-area end -->
+        <!-- testimonial-area start -->
+        <section class="testimonial-area">
+            <div class="container-fluid">
+                <div class="testimonial-wrap section-ptb">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="testimonial-title-area text-center">
+                                    <span class="same-subtitle testimonial-subtitle text-white text-uppercase d-block mb-3">TESTIMONIAL</span>
+                                    <h2 class="same-heading testimonial-title text-white mb-3">
+                                        What Our Clients Are Saying
+                                    </h2>
+                                    <p class="mb-0 same-description">Here’s why you’re going to love working with Ntiva</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper4 pt-5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">“After investing heavily in technology, we were missing a trusted partner who could help provide us with much-needed technical depth. Ntiva has proven to be the best partner for our needs.”</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Mike DiPirro</p>
+                                                <span class="role text-dark same-description">CTO, Home State Bank</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">“We have been working with Ntiva for more than 11 years. They’ve been proactive. Anytime I’ve had any kind of issue, they’ve been very good about addressing it. We are very happy with Ntiva’s strategic service.”</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Scott Bryles</p>
+                                                <span class="role text-dark same-description">CEO, Bryles Research</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">“I don’t want to be in the business of server administration or patching or help desk. Those are perfect targets to be outsourced so that we can stay focused on what differentiates us as a business.”</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Andy Lomasky</p>
+                                                <span class="role text-dark same-description">Director of IT, PMMI</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">“Every single company today is completely reliant on technology for growth and success. Companies who are technology enabled have a distinct competitive advantage, which is why we chose to partner with Ntiva.”</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Ira Starr</p>
+                                                <span class="role text-dark same-description">CAO, Streetsense</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Ntiva is great with managing both Windows and Mac environments, a rare find amongst IT companies. More importantly, I no longer have to wear the “IT hat” and can focus on my true priorities.”</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">David Terroba</p>
+                                                <span class="role text-dark same-description">Sr. Accountant, CASEL</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Their team is committed to delivering a great customer experience. If you are looking to work with a professional group that is committed to getting results consistently, consider calling them." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Steve DeBretto</p>
+                                                <span class="role text-dark same-description">CEO, ICNC </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"We just made the switch to this IT provider, and we could not be more thrilled with the decision so far. The team is truly surpassing our expectations every day."  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Kris Garvey</p>
+                                                <span class="role text-dark same-description">COO, Agency H5 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Their team gets the job done and has the ability to explain IT issues to anyone with any amount of knowledge."</p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Pat Green</p>
+                                                <span class="role text-dark same-description">Office Manager, ATD</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Once we switched, we realized they have excellent customer service, proactive system management, and quick response time to meet our needs. Their Cloud Solution was economical and easy to transition to." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Tiffiny Flaim</p>
+                                                <span class="role text-dark same-description">President & CEO, Biofoam</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Very efficient process and knowledgeable. My issues were corrected with ease."  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Member</p>
+                                                <span class="role text-dark same-description">Interior Image Group </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"We moved our office in the middle of a pandemic. Ntiva handled our server and had us up and running within a day and a half. We required our downtime to be minimized and this company delivered."  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Dina Griffin</p>
+                                                <span class="role text-dark same-description">President, Interactive Design, Inc.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"I have always appreciated their approachable style and dedicated responsiveness to our IT support needs."  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Mary McManus</p>
+                                                <span class="role text-dark same-description">Founder & President, Mary Cook & Associates </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"The IT team is knowledgeable and completes every request promptly and in the best interest of the company. I have had nothing but positive outcomes when requiring IT Support from this company! You guys deliver." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Vandna Ahluwalia</p>
+                                                <span class="role text-dark same-description">Director of Marketing, Alfa Tools </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"We’re so glad that we worked with this IT provider to clean up our server room. Thanks to your team, we can run our business smoothly without worrying about our server and computer equipment frying from the heat." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Craig Leva</p>
+                                                <span class="role text-dark same-description">CEO, Arway Long Grove </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Since signing up with this MSP, the IT of our 60-year-old business has completely evolved. Their team treats my business like it’s their own." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Bradley Nardick</p>
+                                                <span class="role text-dark same-description">CEO, The Bazaar </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"I like this tech company because when I call with a problem, no matter what the problem is, they fix it. Every time. Can’t get much better than that!"  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Meredith Carrol</p>
+                                                <span class="role text-dark same-description">GM of Sales, Carroll Seating </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"I just wanted to thank the team at NTIVA (specifically Mark and Isaac) for helping us navigate our server migration. Their patience & expertise were a breath of fresh air for this critical aspect of our operational infrastructure." </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Jonathon Much</p>
+                                                <span class="role text-dark same-description">VP, CTS Financial Group </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Ntiva is a top-notch team of customer-driven professionals who are a pleasure to work with. Choosing them as our IT partner is definitely one of this year's best decisions!"  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Member</p>
+                                                <span class="role text-dark same-description">American Physician Institute  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"They have done very well at project management, following exactly what they laid out in the beginning. They have a smart, engaging, and kind team. They're great to work with."  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">Andy Seikel</p>
+                                                <span class="role text-dark same-description">CIO, GCFD </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-content">
+                                            <p class="mb-0 text-start text-dark same-description">"Ntiva is kind, thorough, patient, and courteous in their answers and in making certain I have complete understanding of my issue resolve. Now THAT is customer service!"  </p>
+                                            <div class="testimonial-author text-start mt-5">
+                                                <p class="name mb-0 text-dark same-description">CEO</p>
+                                                <span class="role text-dark same-description">ADHA</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-area end -->
+        <!-- contact-area start -->
+        <!-- <section class="contact-area section-ptb"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-content w-100">
+                            <div class="contact-wrap">
+                                <h2 class="same-heading contact-title text-white mb-4">Get Stared with Us. <br> Call Us Now!</h2>
+                                <p class="same-description contact-description">The fastest way to convert visitors into leads and sales on your website is with Social Daily Marketing. That's why businesses use Daily.</p>
+                            </div>
+                            <div class="contact-call d-flex align-items-center">
+                                <div class="contact-call-icon d-flex align-items-center justify-content-center text-white">
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M44.2391 16.9892C41.5369 6.94588 33.3318 0 24 0C14.6965 0 6.46024 6.95718 3.76094 16.9892C1.65176 17.2207 0 18.9995 0 21.1765V32.4706C0 34.2353 1.07859 35.7459 2.60894 36.3812C3.15671 41.3139 7.30447 45.1765 12.3812 45.1765H20.0245C20.6089 46.8169 22.1619 48 24 48H32.4706C34.8056 48 36.7059 46.0998 36.7059 43.7647C36.7059 41.4296 34.8056 39.5294 32.4706 39.5294H24C22.1619 39.5294 20.6089 40.7125 20.0245 42.3529H12.3812C8.97035 42.3529 6.12141 39.9247 5.46635 36.7059H8.47059V33.8824H11.2941V19.7647H8.47059V16.9412H6.75953C9.33741 8.58071 16.224 2.82353 24 2.82353C31.7986 2.82353 38.6626 8.57506 41.2405 16.9412H39.5294V19.7647H36.7059V33.8824H39.5294V36.7059H43.7816C46.1082 36.7059 48 34.8056 48 32.4706V21.1765C48 18.9995 46.3482 17.2207 44.2391 16.9892ZM24 42.3529H32.4706C33.2471 42.3529 33.8824 42.9854 33.8824 43.7647C33.8824 44.544 33.2471 45.1765 32.4706 45.1765H24C23.2235 45.1765 22.5882 44.544 22.5882 43.7647C22.5882 42.9854 23.2235 42.3529 24 42.3529ZM5.64706 33.8824H4.21835C3.45035 33.8824 2.82353 33.2499 2.82353 32.4706V21.1765C2.82353 20.3972 3.45035 19.7647 4.21835 19.7647H5.64706V33.8824ZM45.1765 32.4706C45.1765 33.2499 44.5496 33.8824 43.7816 33.8824H42.3529V19.7647H43.7816C44.5496 19.7647 45.1765 20.3972 45.1765 21.1765V32.4706Z" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-call-info">
+                                    <span class="same-description d-block mb-2">Toll Free Call.</span>
+                                    <a href="#" class="text-white d-block">99758 14589</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-form w-100 mt-lg-0 mt-5">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Name" class="w-100 mb-4 ps-4 pe-4">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" placeholder="Email" class="w-100 mb-4 ps-4 pe-4">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Phone" class="w-100 mb-4 ps-4 pe-4">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <select name="select" class="form-select w-100 mb-4 ps-4 pe-4" aria-label="Default select example">
+                                            <option value="1">Select</option>
+                                            <option value="2">Art &amp; Design</option>
+                                            <option value="3">Graphic Design</option>
+                                            <option value="4">Web Design</option>
+                                            <option value="5">UX/UI Design</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" placeholder="Write a Message" class="w-100 mb-4 ps-4 pe-4"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="link-btn contact-btn">Send Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- contact-area end -->
+         
+        <!-- brand-area start -->
+        <section class="brand-area section-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="brand-title text-center text-white">
+                            <span class="same-subtitle brand-subtitle text-white text-uppercase d-block">
+                                MEET OUR TRUSTED CLIENTS
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand1.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand2.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand3.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand4.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand5.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand6.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand1.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand2.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand3.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand4.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand5.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-icon d-flex align-items-center justify-content-center w-100">
+                                <img src="assets/image/brand6.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- brand-area end -->
+        <!-- cta-area start -->
+        <section class="cta-area z-1 position-relative">
+            <div class="container">
+                <div class="cta-wrapper position-relative rounded-4 d-flex align-items-center justify-content-between z-1">
+                    <h2 class="cta-title same-heading text-white">Lets Get Stared with Us.<br> Call Us Now!</h2>
+                    <div class="cta-wrap w-100 d-flex align-items-center">
+                        <img src="assets/image/cta-image.png" alt="" class="rounded-circle">
+                        <div class="cta-info">
+                            <span class="d-block mb-2">Toll Free Call.</span>
+                            <a href="#" class="d-block">+91 85972 89756</a>
+                        </div>
+                    </div>
+                    <div class="cta-shape-1 position-absolute">
+                        <svg width="320" height="135" viewBox="0 0 320 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.48873 267.853C9.84073 271.725 7.23273 269.613 154.945 319.181C158.227 320.274 161.775 320.274 165.057 319.181C304.001 271.997 308.545 273.165 314.529 267.853C316.39 266.113 317.866 264.004 318.865 261.661C319.584 259.857 319.969 257.938 320.001 255.997V63.9968C319.969 62.0555 319.584 60.1362 318.865 58.3328C317.866 55.9893 316.39 53.8803 314.529 52.1408C308.721 46.9888 305.457 48.3008 165.057 0.812773C161.775 -0.280364 158.227 -0.280364 154.945 0.812773C110.401 15.7408 12.5607 47.9968 8.67273 49.9968C7.51955 50.573 6.44427 51.2934 5.47273 52.1408C3.61112 53.883 2.1295 55.9911 1.12073 58.3328C0.407022 60.1372 0.0275118 62.0565 0.000732422 63.9968V255.997C0.0326085 257.938 0.41755 259.857 1.13673 261.661C2.14183 264.004 3.62395 266.113 5.48873 267.853ZM288.001 233.789L229.057 214.157C225.025 212.816 220.627 213.131 216.828 215.034C213.029 216.936 210.142 220.269 208.801 224.301C207.46 228.332 207.775 232.731 209.678 236.53C211.58 240.328 214.913 243.216 218.945 244.557L253.409 255.997L176.001 281.789V123.533L288.001 86.2048V233.789ZM160.001 32.8608L253.409 63.9968L160.001 95.1328L66.5927 63.9968L160.001 32.8608ZM32.0007 86.2048L144.001 123.533V281.789L66.5927 255.997L101.057 244.509C105.088 243.168 108.422 240.28 110.324 236.482C112.226 232.683 112.542 228.284 111.201 224.253C109.86 220.221 106.972 216.888 103.174 214.986C99.3749 213.083 94.976 212.768 90.9447 214.109L32.0007 233.789V86.2048Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="cta-shape-2 position-absolute end-0 top-0">
+                        <svg width="103" height="74" viewBox="0 0 103 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.03453 52.2535C4.77987 53.8064 3.73395 52.9594 62.9726 72.8382C64.2888 73.2766 65.7117 73.2766 67.0279 72.8382C122.75 53.9154 124.573 54.3839 126.972 52.2535C127.719 51.5559 128.311 50.7101 128.711 49.7703C129 49.047 129.154 48.2773 129.167 47.4988V-29.5012C129.154 -30.2798 129 -31.0495 128.711 -31.7727C128.311 -32.7125 127.719 -33.5584 126.972 -34.256C124.643 -36.3221 123.334 -35.796 67.0279 -54.8406C65.7117 -55.279 64.2888 -55.279 62.9726 -54.8406C45.1086 -48.8539 5.8707 -35.9179 4.31145 -35.1158C3.84898 -34.8847 3.41775 -34.5958 3.02812 -34.256C2.28154 -33.5573 1.68734 -32.7118 1.28278 -31.7727C0.996557 -31.0491 0.844358 -30.2794 0.833618 -29.5012V47.4988C0.846402 48.2773 1.00078 49.047 1.2892 49.7703C1.69229 50.7102 2.28668 51.5559 3.03453 52.2535ZM116.334 38.5924L92.6946 30.7192C91.0779 30.1814 89.3138 30.3079 87.7903 31.0708C86.2669 31.8338 85.1089 33.1706 84.5711 34.7874C84.0333 36.4041 84.1598 38.1682 84.9228 39.6917C85.6857 41.2151 87.0226 42.3731 88.6393 42.9109L102.461 47.4988L71.4169 57.8424V-5.62481L116.334 -20.5949V38.5924ZM65.0003 -41.9881L102.461 -29.5012L65.0003 -17.0144L27.5398 -29.5012L65.0003 -41.9881ZM13.667 -20.5949L58.5836 -5.62481V57.8424L27.5398 47.4988L41.3613 42.8916C42.978 42.3538 44.3149 41.1959 45.0778 39.6724C45.8407 38.149 45.9672 36.3848 45.4295 34.7681C44.8917 33.1514 43.7337 31.8145 42.2102 31.0516C40.6868 30.2887 38.9227 30.1622 37.306 30.6999L13.667 38.5924V-20.5949Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-area end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer id="footer" class="footer-area">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footer-widget-area mb-5">
+                            <div class="footer-logo mb-4">
+                                <a href="/">
+                                    <img src="assets/icons/logo2.svg" alt="" class="img-fluid w-100 rounded-0">
+                                </a>
+                            </div>
+                            <p class="footer-widget-text same-description mb-sm-3 mb-0">Our team do comprises professional with
+                                experience. That's why businesses use Dail The fastest way.</p>
+                            <div class="footer-widget-social pt-3 d-flex align-items-center">
+                                <a href="https://www.facebook.com/" class="d-flex align-items-center justify-content-center text-white">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://x.com/i/flow/login" class="d-flex align-items-center justify-content-center text-white">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.linkedin.com" class="d-flex align-items-center justify-content-center text-white">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.youtube.com/" class="d-flex align-items-center justify-content-center text-white">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 d-flex justify-content-lg-center justify-content-xl-start">
+                        <div class="footer-widget-links">
+                            <h4 class="footer-widget-title text-white">
+                                Quick Links
+                            </h4>
+                            <ul class="m-0 p-0">
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">Home</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="about.html" class="z-1">About</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="services.html" class="z-1">Services</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="project.html" class="z-1">Project</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="contact.html" class="z-1">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 justify-content-xl-end d-flex order-lg-3 order-md-4 order-3">
+                        <div class="footer-widget-links">
+                            <h4 class="footer-widget-title text-white">
+                                Service
+                            </h4>
+                            <ul class="m-0 p-0">
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">App Development</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">Software Update</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">Design System</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">Brand UIUX</a>
+                                </li>
+                                <li class="z-1 d-flex align-items-center mb-sm-3 mb-2">
+                                    <a href="/" class="z-1">Plugin Development</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 col-md-6 order-lg-4 order-md-3 order-4">
+                        <div class="footer-widget-newsletter mb-5">
+                            <h4 class="footer-widget-title text-white">
+                                Our Office
+                            </h4>
+                            <div class="footer-widget-mail d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="hovered-paths"><g><path d="M467 76H45C20.137 76 0 96.262 0 121v270c0 24.885 20.285 45 45 45h422c24.655 0 45-20.03 45-45V121c0-24.694-20.057-45-45-45zm-6.302 30L287.82 277.967c-8.5 8.5-19.8 13.18-31.82 13.18s-23.32-4.681-31.848-13.208L51.302 106h409.396zM30 384.894V127.125L159.638 256.08 30 384.894zM51.321 406l129.587-128.763 22.059 21.943c14.166 14.166 33 21.967 53.033 21.967s38.867-7.801 53.005-21.939l22.087-21.971L460.679 406H51.321zM482 384.894 352.362 256.08 482 127.125v257.769z" fill="#ffffff" opacity="1" data-original="#000000" class="hovered-path"></path></g></svg>
+                                <a href="#" class="same-description d-block text-lowercase">msit@gmail.com</a>
+                            </div>
+                            <div class="footer-widget-call d-flex align-items-center mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" x="0" y="0" viewBox="0 0 473.806 473.806" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M374.456 293.506c-9.7-10.1-21.4-15.5-33.8-15.5-12.3 0-24.1 5.3-34.2 15.4l-31.6 31.5c-2.6-1.4-5.2-2.7-7.7-4-3.6-1.8-7-3.5-9.9-5.3-29.6-18.8-56.5-43.3-82.3-75-12.5-15.8-20.9-29.1-27-42.6 8.2-7.5 15.8-15.3 23.2-22.8 2.8-2.8 5.6-5.7 8.4-8.5 21-21 21-48.2 0-69.2l-27.3-27.3c-3.1-3.1-6.3-6.3-9.3-9.5-6-6.2-12.3-12.6-18.8-18.6-9.7-9.6-21.3-14.7-33.5-14.7s-24 5.1-34 14.7l-.2.2-34 34.3c-12.8 12.8-20.1 28.4-21.7 46.5-2.4 29.2 6.2 56.4 12.8 74.2 16.2 43.7 40.4 84.2 76.5 127.6 43.8 52.3 96.5 93.6 156.7 122.7 23 10.9 53.7 23.8 88 26 2.1.1 4.3.2 6.3.2 23.1 0 42.5-8.3 57.7-24.8.1-.2.3-.3.4-.5 5.2-6.3 11.2-12 17.5-18.1 4.3-4.1 8.7-8.4 13-12.9 9.9-10.3 15.1-22.3 15.1-34.6 0-12.4-5.3-24.3-15.4-34.3l-54.9-55.1zm35.8 105.3c-.1 0-.1.1 0 0-3.9 4.2-7.9 8-12.2 12.2-6.5 6.2-13.1 12.7-19.3 20-10.1 10.8-22 15.9-37.6 15.9-1.5 0-3.1 0-4.6-.1-29.7-1.9-57.3-13.5-78-23.4-56.6-27.4-106.3-66.3-147.6-115.6-34.1-41.1-56.9-79.1-72-119.9-9.3-24.9-12.7-44.3-11.2-62.6 1-11.7 5.5-21.4 13.8-29.7l34.1-34.1c4.9-4.6 10.1-7.1 15.2-7.1 6.3 0 11.4 3.8 14.6 7l.3.3c6.1 5.7 11.9 11.6 18 17.9 3.1 3.2 6.3 6.4 9.5 9.7l27.3 27.3c10.6 10.6 10.6 20.4 0 31-2.9 2.9-5.7 5.8-8.6 8.6-8.4 8.6-16.4 16.6-25.1 24.4-.2.2-.4.3-.5.5-8.6 8.6-7 17-5.2 22.7l.3.9c7.1 17.2 17.1 33.4 32.3 52.7l.1.1c27.6 34 56.7 60.5 88.8 80.8 4.1 2.6 8.3 4.7 12.3 6.7 3.6 1.8 7 3.5 9.9 5.3.4.2.8.5 1.2.7 3.4 1.7 6.6 2.5 9.9 2.5 8.3 0 13.5-5.2 15.2-6.9l34.2-34.2c3.4-3.4 8.8-7.5 15.1-7.5 6.2 0 11.3 3.9 14.4 7.3l.2.2 55.1 55.1c10.3 10.2 10.3 20.7.1 31.3zM256.056 112.706c26.2 4.4 50 16.8 69 35.8s31.3 42.8 35.8 69c1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.4-1.2 12.3-8.2 11.1-15.6-5.4-31.7-20.4-60.6-43.3-83.5s-51.8-37.9-83.5-43.3c-7.4-1.2-14.3 3.7-15.6 11s3.5 14.4 10.9 15.6zM473.256 209.006c-8.9-52.2-33.5-99.7-71.3-137.5s-85.3-62.4-137.5-71.3c-7.3-1.3-14.2 3.7-15.5 11-1.2 7.4 3.7 14.3 11.1 15.6 46.6 7.9 89.1 30 122.9 63.7 33.8 33.8 55.8 76.3 63.7 122.9 1.1 6.6 6.8 11.2 13.3 11.2.8 0 1.5-.1 2.3-.2 7.3-1.1 12.3-8.1 11-15.4z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg>
+                                <a href="#" class="same-description d-block text-lowercase">+91 99258 86542</a>
+                            </div>
+                            <div class="footer-widget-address d-flex align-items-start mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M256 0C156.748 0 76 80.748 76 180c0 33.534 9.289 66.26 26.869 94.652l142.885 230.257A15 15 0 0 0 258.499 512h.119a14.997 14.997 0 0 0 12.75-7.292L410.611 272.22C427.221 244.428 436 212.539 436 180 436 80.748 355.252 0 256 0zm128.866 256.818L258.272 468.186l-129.905-209.34C113.734 235.214 105.8 207.95 105.8 180c0-82.71 67.49-150.2 150.2-150.2S406.1 97.29 406.1 180c0 27.121-7.411 53.688-21.234 76.818z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path><path d="M256 90c-49.626 0-90 40.374-90 90 0 49.309 39.717 90 90 90 50.903 0 90-41.233 90-90 0-49.626-40.374-90-90-90zm0 150.2c-33.257 0-60.2-27.033-60.2-60.2 0-33.084 27.116-60.2 60.2-60.2s60.1 27.116 60.1 60.2c0 32.683-26.316 60.2-60.1 60.2z" fill="#ffffff" opacity="1" data-original="#000000" class=""></path></g></svg>
+                                <p class="same-description d-block">8080 Railroad St.Souther 32,   California USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-4 col-lg-3 col-md-6 order-lg-4 order-md-3 order-4">
+                        <div class="footer-widget-newsletter mb-5">
+                            <h4 class="footer-widget-title text-white">
+                                Newsletter
+                            </h4>
+                            <p class="footer-widget-text same-description mb-3">Our team do comprises professional with
+                                experience.</p>
+                            <div class="footer-widget-mail d-flex align-items-center">
+                                <i class="far fa-envelope"></i>
+                                <a href="#" class="text-white d-block text-lowercase">msit@gmail.com</a>
+                            </div>
+                            <form action="#" class="position-relative z-1">
+                                <input type="email" placeholder="Email Address">
+                                <button type="submit"
+                                    class="m-0 p-0 d-flex align-items-center justify-content-center text-white border-0">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area ">
+            <div class="container">
+                <div class="footer-bottom-wrap text-center">
+                    <p class="footer-copyright m-0 p-0"> © <script>document.write(new Date().getFullYear());</script> <a href="/" class="ft-footer-text text-white"
+                            target="_blank"> MSIT Website</a> All rights reserved. </p>
+                    <!-- <p class="footer-copyright m-0 p-0"> © 2024 <a href="#" class="ft-footer-text text-white"
+                        target="_blank"> MSIT Website</a> All rights reserved. Design &amp; Developed by <a
+                        href="https://inspirefox.com/" class="ft-footer-text text-white"
+                        target="_blank">InspireFox.</a></p> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- back-to-top-btn start -->
+    <div class="got-to-top-button">
+        <!-- <i class="fa fa-chevron-up"></i> -->
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!-- back-to-top-btn end -->
+     
+    <!--  j-query -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- theme js -->
+    <script src="assets/js/theme.js"></script>
+    <!-- swiper  js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- link bootsrap js -->
+    <!-- <link rel="stylesheet" href="assets/js/boostrap.js"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // brand-area-slider script
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 15
+                },
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+                1199: {
+                    slidesPerView: 6,
+                    spaceBetween: 30
+                },
+            },
+
+        });
+
+         // team-area-slider script
+        const swiper2 = new Swiper(".mySwiper2", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 15
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1199: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+            },
+
+        });
+
+        // service-area script
+        const swiper3 = new Swiper(".mySwiper3", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 15
+                },
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1199: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+            },
+
+        });
+
+        // testimonial-area slider script
+        const swiper4 = new Swiper(".mySwiper4", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 15
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1199: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+            },
+
+        });
+
+
+
+    </script>
+
+
+</body>
+
+</html>
