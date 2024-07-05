@@ -15,7 +15,7 @@
     --body-second-bgcolor: #0909bb;
     --extra-bgcolor: #fff;
     --body-bglight: #592dd447;
-    --body-newbtn : #0F7AEF;
+    --body-newbtn: #0F7AEF;
 
     /* heading */
     --heading-font-color: #fff;
@@ -40,10 +40,9 @@ a {
 }
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: "Outfit", sans-serif;
 }
+
 
 img {
     object-fit: cover;
@@ -55,6 +54,7 @@ img {
     max-width: 1640px;
     padding: 80px 30px;
 }
+
 @media (max-width: 576px) {
     .container.container-custom-1 {
         max-width: 1480px;
@@ -69,6 +69,7 @@ img {
     font-weight: 600;
     line-height: 1.22;
     letter-spacing: -1.1px;
+    font-family: "Outfit", sans-serif;
 }
 
 /* common-subtitle css */
@@ -77,6 +78,7 @@ img {
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 2.5px;
+    font-family: "Outfit", sans-serif;
     text-transform: uppercase;
 }
 
@@ -86,11 +88,14 @@ img {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    font-family: "Outfit", sans-serif;
+}
 
 /* border-class css */
 .border-top {
     border: var(--border-color);
 }
+
 .border-bottom {
     border: var(--border-color);
 }
@@ -100,6 +105,7 @@ img {
     border-radius: 50px;
     background: var(--body-font-color);
     color: var(--body-bgcolor);
+    font-family: "Outfit", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
@@ -108,6 +114,7 @@ img {
     border: 1px solid transparent;
     transition: all 0.5s ease-in-out;
 }
+
 .link-btn:hover {
     background: transparent;
     color: var(--body-font-color);
@@ -118,30 +125,38 @@ img {
 .section-ptb {
     padding: 120px 0px;
 }
+
 .section-pt {
     padding: 120px 0px 0px;
 }
+
 .section-pb {
     padding: 0px 0px 120px;
 }
+
 @media (max-width: 1199px) {
     .section-ptb {
         padding: 70px 0px;
     }
+
     .section-pt {
         padding: 70px 0px 0px;
     }
+
     .section-pb {
         padding: 0px 0px 70px;
     }
 }
+
 @media (max-width: 767px) {
     .section-ptb {
         padding: 50px 0px;
     }
+
     .section-pt {
         padding: 50px 0px 0px;
     }
+
     .section-pb {
         padding: 0px 0px 50px;
     }
@@ -152,27 +167,34 @@ img {
     padding-left: 30px;
     padding-right: 30px;
 }
+
 .header-new-area {
     padding: 30px;
 }
+
 .header-logo {
     max-width: 170px;
 }
+
 .header-logo-margin {
     margin-top: -15px;
 }
+
 .header-left {
     gap: 120px;
 }
+
 .menu-ul {
     list-style: none;
 }
+
 .menu-li a {
     font-size: 18px;
     font-weight: 500;
     padding: 10px 15px;
     text-decoration: none;
 }
+
 .menu-li a:hover,
 .menu-li a.active {
     color: var(--body-newbtn) !important;
@@ -187,10 +209,12 @@ img {
     position: relative;
     z-index: 1;
 }
+
 .header-btn {
     border-radius: 60px;
     background: var(--body-bgcolor);
     color: var(--extra-bgcolor);
+    font-family: "Outfit", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -200,26 +224,31 @@ img {
     height: 55px;
     text-decoration: none;
 }
+
 .header-btn:hover {
     background: var(--extra-bgcolor);
     color: var(--body-bgcolor);
     transition: all 0.5s ease-in-out;
 }
+
 .header-icon {
     color: var(--body-font-color);
     font-size: 30px;
     cursor: pointer;
 }
+
 .header-icon:hover {
     color: var(--paragraph-font-color);
     transition: all 0.5s ease-in-out;
 }
+
 .header-action-shape {
     left: -34px;
     bottom: 0px;
     z-index: 999;
     transform: rotate(180deg);
 }
+
 .header-action-shape svg {
     color: #013784;
     width: 35px;
@@ -236,31 +265,40 @@ img {
 .grid-btn a i {
     font-size: 30px;
 }
+
 .grid-btn .offcanvas.offcanvas-start {
     width: 100%;
 }
+
 .grid-btn .btn:first-child:active {
     border: none;
 }
+
 .grid-body .offcanvas-header {
     padding: 30px 30px 0px;
 }
+
 .grid-body {
     background-color: var(--body-bgcolor);
 }
+
 .grid-body a.grid-image {
     max-width: 120px;
 }
+
 .grid-body .grid-close-btn {
     background-color: transparent;
     border: none;
 }
+
 .grid-menu ul li {
     padding: 15px 30px;
 }
+
 .grid-menu ul li a {
     font-size: 18px;
 }
+
 .grid-contact-btn a {
     align-items: center;
     background-color: var(--extra-bgcolor);
@@ -279,33 +317,40 @@ img {
 .hero-area {
     padding: 0px 30px;
 }
+
 .hero-wrapper {
     background: var(--linear-gradient);
     border-radius: 34px 0 34px 34px;
 }
+
 .hero-wrap {
-    /* gap: 50px; */
     padding-top: 44px;
     padding-bottom: 58px;
     padding-left: 30px;
     padding-right: 30px;
 }
+
 .hero-content-title {
+    font-family: "Outfit", sans-serif;
     font-size: 86px;
     font-weight: 700;
     line-height: 1.1;
     word-break: break-word;
 }
+
 .hero-content-title span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px var(--body-font-color);
 }
+
 .hero-description {
     font-size: 16px;
 }
+
 .hero-image {
     padding-left: 30px;
 }
+
 .hero-circle-btn {
     left: -70px;
     top: 50%;
@@ -314,6 +359,7 @@ img {
     height: 180px;
     padding: 0;
 }
+
 .hero-circle-btn::before {
     position: absolute;
     left: 0;
@@ -325,6 +371,7 @@ img {
     border-radius: 50%;
     z-index: 1;
 }
+
 .hero-circle-btn img {
     animation: hero-circle-1 10s linear 0s infinite;
 }
@@ -333,6 +380,7 @@ img {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -351,22 +399,25 @@ img {
 .business-image {
     margin-right: 65px;
 }
+
 /************************************* business-area css end *************************************/
 
 /************************************* service-types-area css start *************************************/
 .service-types-image {
     margin-left: 65px;
 }
+
 /************************************* service-types-area css end *************************************/
 
 /************************************* brand-area css start *************************************/
 .brand-title {
     margin-bottom: 45px;
 }
+
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
 .swiper-slide {
     text-align: center;
@@ -380,6 +431,7 @@ img {
 .swiper-slide img {
     display: block;
 }
+
 .brand-icon {
     border: 1px solid rgba(255, 255, 255, .08);
     height: 83px;
@@ -387,39 +439,49 @@ img {
     cursor: pointer;
     background: transparent;
 }
+
 .brand-icon:hover {
     border-color: var(--body-bgcolor);
     background: var(--body-second-bgcolor);
     transition: all 0.5s ease-in-out;
 }
+
 .brand-icon img {
     transition: all 0.3s linear 0s;
     filter: opacity(0.6)
 }
+
 .brand-icon:hover img {
     filter: opacity(1);
 }
+
 /************************************* brand-area css end *************************************/
 
 /************************************* faq-area css start *************************************/
 .faq-img {
     margin-bottom: 0px;
 }
+
 .faq-img img {
     object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 0 5px 2px #fff;
 }
+
 .faq-wrapper {
     margin: 0px 30px 0px 50px;
 }
+
 .faq-subtitle {
     margin-bottom: 20px;
 }
+
 .faq-title {
     margin-bottom: 35px;
 }
+
 .faq-content .accordion-button {
+    font-family: "Outfit", sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.25;
@@ -427,6 +489,7 @@ img {
     gap: 10px;
     padding: 23px 20px 24px 20px;
 }
+
 .faq-content .accordion-item {
     margin-bottom: 20px;
     overflow: hidden;
@@ -434,6 +497,7 @@ img {
     border-radius: 8px;
     border: 1px solid rgb(255 255 255 / 35%);
 }
+
 .faq-content .accordion-button {
     position: relative;
     cursor: pointer;
@@ -446,15 +510,18 @@ img {
     gap: 10px;
     padding: 23px 20px 24px 20px;
 }
+
 .faq-content .accordion-button:not(.collapsed) {
     background-color: var(--extra-bgcolor);
     padding-bottom: 17px;
     border: 1px solid rgb(255 255 255 / 35%);
     border-bottom: 0;
 }
+
 .faq-content .accordion-button:not(.collapsed)::after {
     color: var(--body-font-color);
 }
+
 .faq-content .accordion-body {
     padding: 0 40px 5px 62px;
     background-color: var(--extra-bgcolor);
@@ -464,6 +531,7 @@ img {
     line-height: 20px;
     border-radius: 0 0 8px 8px;
 }
+
 /************************************* faq-area css end *************************************/
 
 
@@ -471,46 +539,57 @@ img {
 .project-area {
     padding: 0px 30px;
 }
+
 .project-wrap {
     border-radius: 34px;
     background: var(--linear-gradient);
 }
+
 .project-subtitle {
     margin-bottom: 20px;
 }
+
 .project-title {
     margin-bottom: 40px;
 }
+
 .project-single-product {
     border-top: var(--border-color);
 }
+
 .project-single-left:first-child {
     border-right: var(--border-color);
 }
+
 .project-single-left {
     padding-right: 40px;
     padding-top: 40px;
 
 }
+
 .project-single-right {
     padding-left: 40px;
     padding-top: 40px;
 
 }
+
 .project-item {
     border-bottom: var(--border-color);
     padding-bottom: 35px;
     margin-bottom: 30px;
 }
+
 .project-image {
     overflow: hidden;
     border-radius: 17px;
     margin-bottom: 20px;
 }
+
 .project-content-title-icon {
     gap: 15px;
     margin-bottom: 15px;
 }
+
 .project-content-title {
     font-size: 32px;
     font-weight: 600;
@@ -518,20 +597,24 @@ img {
     margin-bottom: 0;
     font-family: "Outfit", sans-serif;
 }
+
 .project-content-icon {
     color: rgba(255, 255, 255, 0.2);
     font-size: 30px;
     font-weight: 700;
     font-family: "Outfit", sans-serif;
 }
+
 .project-content-icon svg {
     width: 16px;
     height: 16px;
     color: rgba(255, 255, 255, 0.2);
 }
+
 .project-content-icon svg:hover {
     color: var(--body-font-color);
 }
+
 .project-content p {
     opacity: 0.7;
     font-size: 16px;
@@ -544,28 +627,34 @@ img {
     gap: 10px;
     margin-bottom: 35px;
 }
+
 .project-client-img img {
     border: 5px solid var(--body-bgcolor);
     border-radius: 50px;
 }
+
 .project-client-img img:not(:first-child) {
     margin-left: -20px;
 }
+
 .project-client-info h3 {
     font-size: 32px;
     font-weight: 600;
     line-height: 1.2;
     font-family: "Outfit", sans-serif;
 }
+
 .project-client-info p {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     font-family: "Inter", sans-serif;
 }
+
 .project-btn {
     padding-top: 20px;
 }
+
 /************************************* project-area css end *************************************/
 
 /************************************* service-area css start *************************************/
@@ -577,29 +666,35 @@ img {
     padding: 37px 30px 32px;
     min-height: 360px;
 }
+
 .service-item:hover {
     border-color: var(--body-font-color);
     transition: all 0.5s ease-in-out;
 }
+
 .service-item-top {
     margin-bottom: 52px;
 }
+
 .service-item-icon svg {
     color: var(--body-font-color);
     width: 40px;
 }
+
 .service-item-title {
     font-size: 22px;
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 20px;
 }
+
 .service-icon-content p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .service-icon-btn {
     margin-top: 30px;
     color: var(--extra-bgcolor);
@@ -608,9 +703,11 @@ img {
     line-height: 28px;
     gap: 15px;
 }
+
 .service-item:hover .service-icon-btn {
-    color: var(--body-newbtn) !important;   
+    color: var(--body-newbtn) !important;
 }
+
 /************************************* service-area css end *************************************/
 
 
@@ -618,10 +715,12 @@ img {
 .testimonial-area {
     padding: 0px 30px;
 }
+
 .testimonial-wrap {
     border-radius: 34px;
-    background: var(--linear-gradient); 
+    background: var(--linear-gradient);
 }
+
 .testimonial-item {
     margin-bottom: 30px;
     border-radius: 8px;
@@ -630,15 +729,46 @@ img {
     padding: 37px 30px 32px;
     min-height: 370px;
 }
+
 .testimonial-item:hover {
     border-color: var(--body-bgcolor);
     transition: all 0.5s ease-in-out;
 }
+
 .testimonial-author p {
     font-weight: 700;
 }
+
 .testimonial-author span {
     font-size: 16px;
+}
+
+
+/*====================================
+    slider-arrow css
+====================================*/
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
+
+.testimonial-area .swiper .swiper-button {
+    position: relative;
+    top: 40px;
+    max-width: 115px;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.testimonial-area .swiper .swiper-button .swiper-button-next,
+.testimonial-area .swiper .swiper-button .swiper-button-prev {
+    color: #0092C7;
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    line-height: 0;
+    border: none;
 }
 
 /************************************* testimonial-area css end *************************************/
@@ -647,12 +777,15 @@ img {
 .service-stap-subtitle {
     margin-bottom: 20px;
 }
+
 .service-stap-title {
     margin-bottom: 40px;
 }
+
 .service-stap-image {
     margin-left: 75px;
 }
+
 .service-stap-heading {
     font-size: 32px;
     font-weight: 600;
@@ -660,6 +793,7 @@ img {
     margin-bottom: 0;
     font-family: "Outfit", sans-serif;
 }
+
 .service-stap-image-second {
     margin-right: 75px;
 }
@@ -669,6 +803,7 @@ img {
     z-index: 1;
     height: 100%;
 }
+
 .service-stap-wrap::before {
     order-radius: 10px;
     position: absolute;
@@ -680,6 +815,7 @@ img {
     height: 100%;
     border-left: 4px solid var(--body-font-color);
 }
+
 .service-stap-wrap::after {
     position: absolute;
     left: 50%;
@@ -690,11 +826,13 @@ img {
     width: 12px;
     background-image: linear-gradient(180deg, var(--body-bgcolor), rgba(15, 41, 35, 0) 48.5%, var(--body-bgcolor) 100%);
 }
+
 .service-stap-item {
     gap: 190px;
     margin-bottom: 50px;
     z-index: 1;
 }
+
 .service-stap-item::after {
     position: absolute;
     left: 50%;
@@ -706,6 +844,7 @@ img {
     background-color: var(--body-bgcolor);
 }
 
+
 .service-stap-content ul {
     list-style: auto;
     color: var(--paragraph-font-color);
@@ -714,9 +853,11 @@ img {
     font-weight: 400;
     line-height: 30px;
 }
+
 .service-stap-content ul li {
     padding-left: 6px;
 }
+
 /************************************* service-stap-area css end *************************************/
 
 
@@ -724,50 +865,61 @@ img {
 .team-area {
     padding: 0px 30px;
 }
+
 .team-wrapper {
     max-width: 1780px;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .team-wrap {
     border-radius: 34px;
     background: var(--linear-gradient);
 }
+
 .team-subtitle {
     margin-bottom: 20px;
 }
+
 .team-title {
     margin-bottom: 20px;
 }
+
 .team-item-img {
     background: var(--body-bgcolor);
     border-radius: 8px;
     margin-bottom: 22px;
 }
+
 .team-item-img img {
     border-radius: 8px;
     padding: 20px;
 }
+
 .team-item-content h3 {
     font-size: 32px;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -1px;
 }
+
 .team-item-content:hover h3,
 .team-item-content:hover span {
     color: var(--body-font-color) !important;
 }
+
 .team-item-content span {
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .team-item-content ul {
     list-style: none;
     gap: 10px;
 }
+
 .team-item-content li a {
     border: 1px solid var(--extra-bgcolor);
     width: 32px;
@@ -777,11 +929,13 @@ img {
     color: var(--extra-bgcolor);
     line-height: 32px;
 }
+
 .team-item-content li a:hover {
     background-color: var(--body-bgcolor);
     color: var(--extra-bgcolor);
     border-color: transparent;
 }
+
 /************************************* team-area css end *************************************/
 
 
@@ -789,6 +943,7 @@ img {
 .benefit-image {
     margin-left: 65px;
 }
+
 /************************************* benefits-area css end *************************************/
 
 
@@ -796,15 +951,19 @@ img {
 .business-icon-subtitle {
     margin-bottom: 20px;
 }
+
 .business-icon-title {
     margin-bottom: 30px;
 }
+
 .business-icon-right-text {
     margin-bottom: 40px;
 }
+
 .business-icon-description {
     line-height: 25px;
 }
+
 .business-icon-item {
     margin-bottom: 30px;
     border-radius: 8px;
@@ -813,29 +972,35 @@ img {
     padding: 37px 30px 32px;
     min-height: 340px;
 }
+
 .business-icon-item:hover {
     border-color: var(--body-font-color);
     transition: all 0.5s ease-in-out;
 }
+
 .business-icon-item-top {
     margin-bottom: 52px;
 }
+
 .business-item-icon svg {
     color: var(--body-font-color);
     width: 40px;
 }
+
 .business-icon-item-title {
     font-size: 22px;
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 20px;
 }
+
 .business-icon-item p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .business-icon-btn {
     margin-top: 30px;
     color: var(--extra-bgcolor);
@@ -844,9 +1009,11 @@ img {
     line-height: 28px;
     gap: 15px;
 }
+
 .business-icon-item:hover .business-icon-btn {
-    color: var(--body-newbtn) !important;   
+    color: var(--body-newbtn) !important;
 }
+
 /************************************* business-icon-area css end *************************************/
 
 
@@ -854,6 +1021,7 @@ img {
 .hire-image {
     margin-right: 65px;
 }
+
 /************************************* hire-area css end *************************************/
 
 
@@ -861,25 +1029,32 @@ img {
 .choose-subtitle {
     margin-bottom: 20px;
 }
+
 .choose-title {
     margin-bottom: 30px;
 }
+
 .choose-right-btn {
     margin-bottom: 40px;
 }
+
 .choose-btn {
     padding: 16px 36px;
 }
+
 .choose-wrapper {
     border-top: 1px solid rgb(255 255 255 / 32%);
     padding-top: 40px;
 }
+
 .choose-image {
     margin-bottom: 30px;
 }
+
 .choose-image img {
     border-radius: 16px;
 }
+
 .choose-item {
     margin-bottom: 30px;
     border-radius: 8px;
@@ -887,30 +1062,36 @@ img {
     padding: 30px 30px 45px;
     min-height: 500px;
 }
+
 .choose-item:hover {
     border-color: var(--body-second-bgcolor);
     background: var(--body-bglight);
     transition: all 0.5s ease-in-out;
 }
+
 .choose-item-top {
     margin-bottom: 28px;
 }
+
 .choose-item-top img {
     border-radius: 8px;
 }
+
 .choose-item-title {
     font-size: 30px;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     font-family: "Outfit", sans-serif;
 }
+
 .choose-item p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
 }
+
 /************************************* choose-area css end *************************************/
 
 
@@ -921,31 +1102,38 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .price-wrap {
     border-radius: 34px;
     background-color: var(--body-bglight);
 }
+
 .price-subtitle {
     margin-bottom: 20px;
 }
+
 .price-title {
     margin-bottom: 40px;
 }
+
 .price-item {
     background: var(--body-bglight);
     padding: 35px 30px 40px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
 .price-category p {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     margin-bottom: 11px;
 }
+
 .price-amount {
     margin-bottom: 13px;
 }
+
 .price-amount h2 {
     font-size: 72px;
     font-weight: 600;
@@ -953,6 +1141,7 @@ img {
     position: relative;
     padding-left: 15px;
 }
+
 .price-amount h2 span {
     color: #bbb;
     font-size: 18px;
@@ -962,28 +1151,33 @@ img {
     top: 10px;
     line-height: 1;
 }
+
 .price-amount span {
     color: #bbb;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
 }
+
 .price-text p {
     color: var(--paragraph-font-color);
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    margin-bottom: 35px;   
+    margin-bottom: 35px;
 }
+
 .price-feature {
     background: var(--body-bgcolor);
     padding: 30px 30px 30px;
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
 .price-feature ul {
     list-style: none;
 }
+
 .price-feature ul li {
     gap: 12px;
     color: rgb(184, 184, 184);
@@ -993,10 +1187,12 @@ img {
     margin-bottom: 20px;
     font-family: "Outfit", sans-serif;
 }
+
 .price-feature ul li i {
     color: var(--body-font-color);
     font-size: 18px;
 }
+
 .price-btn {
     padding: 16px 36px;
     width: 100%;
@@ -1007,56 +1203,68 @@ img {
     text-transform: capitalize;
     line-height: 26px;
 }
+
 /************************************* price-area css end *************************************/
 
 /************************************* feature-area css start *************************************/
 .feature-subtitle {
     margin-bottom: 20px;
 }
+
 .feature-title {
     margin-bottom: 30px;
 }
+
 .feature-right-btn {
     margin-bottom: 40px;
 }
+
 .feature-btn {
     padding: 16px 36px;
 }
+
 .feature-item {
     margin-bottom: 30px;
     border-radius: 8px;
     border: 1px solid rgb(255 255 255 / 32%);
     padding: 30px 30px 45px;
 }
+
 .feature-item:hover {
     border-color: var(--body-second-bgcolor);
     background: var(--body-bglight);
     transition: all 0.5s ease-in-out;
 }
+
 .feature-item-icon {
-    width: 80px; 
+    width: 80px;
     height: 80px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
 }
+
 .feature-item-icon svg {
     color: var(--body-font-color);
 }
+
 .feature-item:hover .feature-item-icon {
     background-color: var(--body-font-color);
     border-color: var(--body-font-color);
 }
+
 .feature-item:hover .feature-item-icon svg path {
     fill: var(--body-bgcolor);
 }
+
 .feature-item-title {
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
     margin-bottom: 30px;
 }
+
 .feature-item-description {
     color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
@@ -1064,12 +1272,14 @@ img {
     line-height: 24px;
     margin-bottom: 38px;
 }
+
 .feature-item-btn {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
     gap: 5px;
 }
+
 /************************************* feature-area css end *************************************/
 
 
@@ -1077,9 +1287,11 @@ img {
 .contact-content {
     max-width: 540px;
 }
+
 .contact-call {
     gap: 30px;
 }
+
 .contact-call-icon {
     width: 70px;
     height: 70px;
@@ -1087,13 +1299,16 @@ img {
     flex-shrink: 0;
     border-radius: 8px;
 }
+
 .contact-call-icon svg {
     width: 48px;
 }
+
 .contact-call-info span {
     font-size: 16px;
     font-weight: 500;
 }
+
 .contact-call-info a {
     font-size: 32px;
     font-weight: 600;
@@ -1106,10 +1321,12 @@ img {
     border-radius: 8px;
     max-width: 682px;
 }
+
 .contact-form form input,
 .contact-form form textarea {
     height: 50px;
-    background: var(--extra-bgcolor);;
+    background: var(--extra-bgcolor);
+    ;
     border: 2px solid var(--body-bgcolor);
     border-radius: 50px;
     font-size: 16px;
@@ -1117,25 +1334,31 @@ img {
     font-weight: 400;
     font-family: "Outfit", sans-serif;
 }
+
 .contact-form form textarea {
     border-radius: 20px;
 }
+
 .contact-form form input::placeholder,
 .contact-form form textarea::placeholder {
     color: var(--heading-font-darkcolor);
 }
+
 .contact-form form select {
     height: 50px;
     border-radius: 50px;
     font-weight: 400;
+    font-family: "Outfit", sans-serif;
     border: 2px solid var(--body-bgcolor);
 }
+
 .contact-form form input,
 .contact-form form textarea,
 .contact-form form select:focus {
     outline: none;
     box-shadow: none;
 }
+
 .contact-form form textarea {
     height: 150px;
 }
@@ -1143,6 +1366,7 @@ img {
     transition: all 0.5s ease-in-out;
     background-color: var(--body-bgcolor);
 }
+
 /************************************* contact-area css end *************************************/
 
 
@@ -1150,44 +1374,53 @@ img {
 .cta-area {
     margin-bottom: -110px;
 }
+
 .cta-wrapper {
     background: var(--body-newbtn);
     padding: 70px 50px 70px;
     gap: 25px;
 }
+
 .cta-wrap {
     max-width: 470px;
     gap: 12px;
 }
+
 .cta-wrap img {
     width: 85px;
     height: 85px;
 }
+
 .cta-info span {
     color: var(--body-font-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
+
 .cta-info a {
     color: var(--body-bgcolor);
     font-size: 32px;
     font-weight: 600;
     line-height: 1;
 }
+
 .cta-shape-1 {
     left: 47%;
     bottom: 0;
     transform: translateX(-50%);
     z-index: -1;
 }
+
 .cta-shape-1 svg,
 .cta-shape-2 svg {
     color: var(--body-bglight);
 }
+
 .cta-shape-2 {
     z-index: -1;
 }
+
 /************************************* cta-area css end *************************************/
 
 
@@ -1197,15 +1430,19 @@ img {
     padding-bottom: 50px;
     background-color: var(--body-bglight);
 }
+
 .footer-widget-area {
     margin-right: 85px;
 }
+
 .footer-logo {
     max-width: 170px;
 }
+
 .footer-widget-social {
     gap: 10px;
 }
+
 .footer-widget-social a {
     width: 42px;
     height: 42px;
@@ -1213,6 +1450,7 @@ img {
     border-radius: 50%;
     font-size: 18px;
 }
+
 .footer-widget-social a:hover {
     background-color: var(--extra-bgcolor);
     border-color: transparent;
@@ -1222,19 +1460,23 @@ img {
 .footer-widget-links {
     margin-bottom: 40px;
 }
+
 .footer-widget-title {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.1;
     margin-bottom: 28px;
 }
+
 .footer-widget-links ul {
     list-style: none;
 }
+
 .footer-widget-links ul li {
     position: relative;
     gap: 10px;
 }
+
 .footer-widget-links ul li a {
     color: var(--paragraph-font-color);
     font-size: 18px;
@@ -1242,10 +1484,12 @@ img {
     line-height: 28px;
     position: relative;
 }
+
 .footer-widget-links ul li a:hover {
     color: var(--body-font-color);
     transition: all 0.3s ease-in-out;
 }
+
 .footer-widget-links ul li a::after {
     position: absolute;
     left: 0;
@@ -1258,6 +1502,7 @@ img {
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
+
 .footer-widget-links ul li a:hover::after {
     opacity: 1;
     visibility: visible;
@@ -1268,11 +1513,13 @@ img {
 .footer-widget-newsletter {
     margin-left: 85px;
 }
+
 .footer-widget-mail,
 .footer-widget-call,
 .footer-widget-address {
     gap: 10px;
 }
+
 .footer-widget-mail svg,
 .footer-widget-call svg,
 .footer-widget-address svg {
@@ -1280,13 +1527,16 @@ img {
     height: 24px;
     color: var(--body-newbtn);
 }
+
 .footer-widget-mail a:hover,
 .footer-widget-call a:hover {
     color: var(--body-newbtn) !important;
 }
+
 .footer-widget-newsletter form {
     margin-top: 35px;
 }
+
 .footer-widget-newsletter form input {
     width: 100%;
     height: 64px;
@@ -1302,9 +1552,11 @@ img {
     letter-spacing: -0.8px;
     text-align: left;
 }
+
 .footer-widget-newsletter form input:focus-visible {
     outline: none;
 }
+
 .footer-widget-newsletter form button {
     position: absolute;
     right: 6px;
@@ -1314,7 +1566,7 @@ img {
     height: 52px;
     width: 52px;
     border-radius: 50%;
-    font-size: 20px;  
+    font-size: 20px;
 }
 
 
@@ -1322,17 +1574,20 @@ img {
     background: var(--body-bgcolor);
     padding: 30px 0px 30px;
 }
+
 .footer-copyright {
     color: var(--paragraph-font-color);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
 }
+
 .ft-footer-text:hover {
     color: var(--paragraph-font-color) !important;
     transition: all 0.3s ease-in-out;
 }
-/************************************* footer-area css end *************************************/ 
+
+/************************************* footer-area css end *************************************/
 
 /* ----------------------------------------
     home page css end
@@ -1347,13 +1602,16 @@ img {
 .breadcrumb-area {
     padding: 0 30px;
 }
+
 .breadcrumb-wrapper {
     background: var(--linear-gradient);
     border-radius: 24px;
 }
+
 .breadcrumb-image {
     z-index: -1;
 }
+
 .breadcrumb-content-title {
     font-size: 48px;
     font-weight: 600;
@@ -1361,14 +1619,17 @@ img {
     letter-spacing: -1px;
 }
 
+
 .breadcrumb-item {
     font-size: 16px;
     font-weight: 600;
 }
+
 .breadcrumb-item.active {
     color: var(--body-font-color);
     opacity: 0.5;
 }
+
 .breadcrumb-item+.breadcrumb-item::before {
     opacity: 0.5;
     color: var(--body-font-color) !important;
@@ -1378,6 +1639,7 @@ img {
 .our-area {
     font-size: 30px;
 }
+
 /************************************* breadcrumb-area css end *************************************/
 
 
@@ -1429,24 +1691,30 @@ img {
     transition: all 0.3s ease-in-out;
     min-height: 316px;
 }
+
 .contact-top-item:hover {
     background-color: var(--extra-bgcolor);
 }
+
 .contact-top-icon {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
+
 .contact-top-item:hover .contact-top-icon {
     background: var(--body-bgcolor) !important;
 }
+
 .contact-top-icon svg {
     width: 30px;
 }
+
 .contact-top-item:hover .contact-top-icon svg {
     color: var(--body-font-color) !important;
 }
+
 .contact-top-info h4 {
     font-size: 24px;
     font-weight: 600;
@@ -1455,14 +1723,17 @@ img {
     margin-bottom: 15px;
     transition: all 0.3s ease-in-out;
 }
+
 .contact-top-item:hover .contact-top-info h4,
 .contact-top-item:hover .contact-top-info a,
 .contact-top-item:hover .contact-top-info p {
     color: var(--heading-font-darkcolor) !important;
 }
+
 .contact-social {
     gap: 10px;
 }
+
 .contact-social a {
     width: 42px;
     height: 42px;
@@ -1471,11 +1742,13 @@ img {
     border-radius: 50%;
     font-size: 18px;
 }
+
 .contact-social a:hover {
     background-color: var(--extra-bgcolor);
     border-color: transparent;
     color: var(--heading-font-darkcolor) !important;
 }
+
 /* ----------------------------------------
     contact page cssend
 ---------------------------------------- */
@@ -1509,6 +1782,7 @@ img {
     .hero-content-title {
         font-size: 70px;
     }
+
     .hero-image {
         padding-left: 0;
     }
@@ -1527,6 +1801,7 @@ img {
     .faq-wrapper {
         margin: 0px 0px 40px 30px;
     }
+
     .faq-img {
         margin-bottom: 40px;
     }
@@ -1565,7 +1840,9 @@ img {
     .same-description {
         line-height: 22px;
     }
-    
+
+    /* header media-querys */
+
 
     /* ----------------------------------------
         home page media-querys start
@@ -1575,6 +1852,7 @@ img {
     .hero-content-title {
         font-size: 60px;
     }
+
     .hero-circle-btn {
         left: 42%;
         top: 0;
@@ -1583,6 +1861,7 @@ img {
         height: 140px;
         padding: 0;
     }
+
     .hero-circle-btn a svg {
         width: 20px;
         height: 20px;
@@ -1602,6 +1881,7 @@ img {
     .faq-wrapper {
         margin: 0px 0px 40px 0px;
     }
+
     .faq-content .accordion-button {
         padding: 16px 20px 16px 20px;
         font-size: 18px;
@@ -1611,9 +1891,11 @@ img {
     .project-single-left {
         padding-right: 0px;
     }
+
     .project-single-left:first-child {
         border-right: none;
     }
+
     .project-single-right {
         padding-left: 0px;
         padding-top: 10px;
@@ -1628,9 +1910,11 @@ img {
     .cta-wrapper {
         padding: 70px 40px 70px;
     }
+
     .cta-title br {
         display: none;
     }
+
     .cta-wrap img {
         width: 70px;
         height: 70px;
@@ -1640,15 +1924,17 @@ img {
         home page media-querys end
     ---------------------------------------- */
 
-     /* ----------------------------------------
+    /* ----------------------------------------
         about page media-querys start
     ---------------------------------------- */
     .breadcrumb-wrapper {
         padding: 50px 0px;
     }
+
     .breadcrumb-content-title {
         font-size: 36px;
     }
+
     .breadcrumb-content-title {
         margin-bottom: 0;
     }
@@ -1657,13 +1943,14 @@ img {
     .business-icon-subtitle {
         margin-bottom: 10px;
     }
+
     .business-icon-title {
         margin-bottom: 15px;
     }
 
 
 
-      /* ----------------------------------------
+    /* ----------------------------------------
         about page media-querys end
     ---------------------------------------- */
 
@@ -1674,7 +1961,7 @@ img {
         margin-bottom: 30px;
     }
 
-     /* ----------------------------------------
+    /* ----------------------------------------
         contact page media-querys end
     ---------------------------------------- */
 }
@@ -1689,6 +1976,7 @@ img {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .header-logo-margin {
         margin-top: -10px;
     }
@@ -1718,18 +2006,21 @@ img {
         padding: 45px 25px 45px;
         flex-wrap: wrap;
     }
+
     .cta-wrap img {
         width: 60px;
         height: 60px;
     }
+
     .cta-info a {
         font-size: 26px;
     }
+
     /* ----------------------------------------
         home page media-querys end
     ---------------------------------------- */
 
-     /* ----------------------------------------
+    /* ----------------------------------------
         about page media-querys start
     ---------------------------------------- */
 
@@ -1738,13 +2029,16 @@ img {
         font-size: 30px;
         margin-bottom: 6px;
     }
+
     .breadcrumb-item {
         font-size: 14px;
     }
+
     .breadcrumb-area {
         padding: 0px 15px;
     }
-     /* ----------------------------------------
+
+    /* ----------------------------------------
         about page media-querys end
     ---------------------------------------- */
 
@@ -1762,7 +2056,7 @@ img {
         height: 0;
         padding: 10px 30px;
     }
-    
+
     /* ----------------------------------------
         home page media-querys start
     ---------------------------------------- */
@@ -1781,9 +2075,11 @@ img {
     .hero-area {
         padding: 0px;
     }
+
     .hero-image {
         margin-top: 70px !important;
     }
+
     .hero-circle-btn {
         left: 0;
         right: 0;
@@ -1794,6 +2090,7 @@ img {
         padding: 0;
         margin: 0 auto;
     }
+
     .hero-circle-btn a svg {
         width: 16px;
         height: 16px;
@@ -1809,7 +2106,7 @@ img {
         padding: 0px;
     }
 
-    
+
     /* service-types-area media-querys */
     .feature-item-description {
         margin-bottom: 0px;
@@ -1830,58 +2127,67 @@ img {
     .footer-logo {
         max-width: 120px;
     }
+
     .footer-top-area {
         padding-bottom: 0px;
     }
+
     .footer-widget-mail svg,
     .footer-widget-call svg,
     .footer-widget-address svg {
         width: 20px;
         height: 20px;
     }
+
     .footer-widget-links {
         margin-bottom: 16px;
     }
+
     .footer-widget-title {
         font-size: 20px;
         margin-bottom: 20px;
     }
+
     .footer-widget-links ul li a {
         font-size: 16px;
     }
+
     /* ----------------------------------------
         home page media-querys end
     ---------------------------------------- */
 
 
-     /* ----------------------------------------
+    /* ----------------------------------------
         about page media-querys start
     ---------------------------------------- */
-    
+
     /* header-area media-querys */
     .header-new-area {
         padding-left: 0px;
         padding-right: 0px;
     }
-    
+
     /* breadcrumb-area media-querys */
     .breadcrumb-area {
         padding: 0px 0px;
     }
-     /* ----------------------------------------
+
+    /* ----------------------------------------
         about page media-querys end
     ---------------------------------------- */
 
-     /* ----------------------------------------
+    /* ----------------------------------------
         contact page media-querys start
     ---------------------------------------- */
     .contact-top-item {
         min-height: 260px;
     }
+
     .contact-form {
         padding: 30px 30px;
     }
-     /* ----------------------------------------
+
+    /* ----------------------------------------
         contact page media-querys end
     ---------------------------------------- */
 
@@ -1893,13 +2199,12 @@ img {
     }
 
     /* cta-area media-querys */
-        .cta-wrap img {
-            width: 50px;
-            height: 50px;
-        }
+    .cta-wrap img {
+        width: 50px;
+        height: 50px;
+    }
 
-        .cta-info a {
-            font-size: 22px;
-        }
+    .cta-info a {
+        font-size: 22px;
     }
 }
